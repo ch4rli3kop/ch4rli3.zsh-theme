@@ -1,4 +1,4 @@
-# ch4rli3kop.zsh-theme
+# ch4rli3.zsh-theme
 my custom zsh theme
 
 lean & simple zsh theme
