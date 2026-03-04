@@ -12,5 +12,25 @@ $ sed -i 's/ZSH_THEME="robbyrussell"/ZSH_THEME="ch4rli3"/' .zshrc
 $ source ~/.zshrc
 ```
 
+## Conda configuration
+
+This theme displays the Python environment name (conda / venv) in the
+prompt.
+
+If Conda's default prompt modification is enabled, the environment name
+may appear twice. Disable it with:
+
+``` shell
+$ conda config --set changeps1 false
+```
+
+You may also disable the default venv prompt:
+
+``` shell
+export VIRTUAL_ENV_DISABLE_PROMPT=1
+```
+
+Add it to your `~/.zshrc` if needed.
+
 ## Preview
 ![image](./custom-zsh-theme.png)
